@@ -22,7 +22,7 @@ public final class ThreadPool {
 		ThreadPool.worker_num=worker_num;
 		workThreads=new WorkThread[worker_num];
 		for (int i = 0; i <worker_num; i++) {
-			
+			this is chenhaikun 提交。
 			workThreads[i].start();
 		}
 

@@ -26,6 +26,7 @@ public final class ThreadPool {
 			workThreads[i].start();
 
 			this is test2;
+			this is guohuaxin test1;
 		}
 
 	}

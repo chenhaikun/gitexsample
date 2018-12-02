@@ -24,6 +24,9 @@ public final class ThreadPool {
 		for (int i = 0; i <worker_num; i++) {
 			this is chenhaikun 提交。
 			workThreads[i].start();
+水水水水水
+			this is test2;
+			this is guohuaxin test1;ss
 		}
 
 	}

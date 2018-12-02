@@ -21,10 +21,7 @@ public final class ThreadPool {
 		
 		ThreadPool.worker_num=worker_num;
 		workThreads=new WorkThread[worker_num];
-		for (int i = 0; i <worker_num; i++) {
-			workThreads[i]=new WorkThread();
-			workThreads[i].start();
-		}
+		
 	}
 	
 	public static ThreadPool getThreadPool() {

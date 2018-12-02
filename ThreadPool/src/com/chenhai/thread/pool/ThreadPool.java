@@ -25,6 +25,7 @@ public final class ThreadPool {
 			
 			workThreads[i].start();
 		}
+
 	}
 	
 	public static ThreadPool getThreadPool() {
